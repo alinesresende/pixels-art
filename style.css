@@ -1,0 +1,45 @@
+#color-palette {
+  display: flex;
+  gap: 5px;
+}
+
+.color {
+  border: solid 1px black;
+  width: 30px;
+  height: 30px;
+}
+
+#color-one {
+  background-color: black;
+}
+
+#color-two {
+  background-color: blue;
+}
+
+#color-three {
+  background-color: red;
+}
+
+#color-four {
+  background-color: orange;
+}
+
+#pixel-board {
+  display: grid;
+  grid-template-columns: repeat(5, 42px);
+  margin-top: 30px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: solid 1px black;
+  background-color: white;
+}
+
+#clear-board {
+  margin-top: 20px;
+}
+
+
